@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+   background-color: black;
+  }
+  
+  .table {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+    padding: 15px;
+    color: white;
+  
+  }
+  
+  .table h1 {
+    margin-right: 1100px;
+    margin-top: 30px;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+  }
+  
+  table {
+    margin: auto;
+  }
+  
+  td img {
+    width: 230px;
+    height:350px;
+    padding: 15px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  td img:hover {
+    transform: scale(1.2);
+    z-index: 5;
+    position: relative;
+  }
